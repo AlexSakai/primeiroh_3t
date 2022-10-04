@@ -18,3 +18,12 @@ function meChame(nome) {
     document.write (tabuada + " x 10 = " + (tabuada * 10) + "<br><br>");
     document.write ("Feita por " + nome);
 }
+
+//For (inicio; validação, manutenção)
+function escreva(){ 
+    for(var i = 0; i < 11; i ++){
+
+        document.write(tabuada + " x " + i + " = " + (tabuada*i) + "<br>");
+
+    }
+}

@@ -27,3 +27,9 @@ function escreva(){
 
     }
 }
+function quadrado(){
+    for(var i = 2; i < 101; i++){
+        document.write("O quadrado de " = i + " é " + (i*i) + "<br>")
+    }
+
+}

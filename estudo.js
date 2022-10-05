@@ -33,3 +33,13 @@ function quadrado(){
     }
 
 }
+function total(){
+    let valor = document.getElementById("val").value;
+    let juros = document.getElementById("ju").value;
+    let tempo = document.getElementById("mes").value
+    let resultado = valor;
+    for(let i = 1; i <= mes; i++){
+        resultado += valor * (1+(juros/100));
+    }
+    document.write("O resultado é " + resultado);   
+}

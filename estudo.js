@@ -16,21 +16,21 @@ function total(){
 
         document.getElementById("val").value ="";
         document.getElementById("val").focus();
-        return
+        return;
     }
     if(!Number(juros)){
         alert("Os juros deve ser um número.");
 
         document.getElementById("ju").value ="";
         document.getElementById("ju").focus();
-        return
+        return;
     }
     if(!Number(mes)){
         alert("Os meses devem ser um número.");
 
         document.getElementById("mes").value ="";
         document.getElementById("mes").focus();
-        return
+        return;
     }
 
     let resultado = 0;
@@ -42,7 +42,7 @@ function total(){
         texto += "Mês " + i + " valor: " + moeda(resultado) + "<br>";
 
     }
-    <div> document.getElementById("meses").innerHTML = texto; </div>
+    document.getElementById("meses").innerHTML = texto;
     document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
     //document.write("O Resultado é " + moeda(resultado));
 }

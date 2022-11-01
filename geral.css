@@ -12,7 +12,7 @@
 }
 
 .spResul {
-    background: rgb(164, 139, 194);
+    background: rgb(77, 76, 78);
     color: aliceblue;
     padding: 5px;
     margin: 5px;
@@ -22,14 +22,14 @@
 #btnCal {
     width: 50px;
     padding: 5px;
-    background: rgb(164, 139, 194);
+    background: rgb(54, 53, 54);
     margin-top: 13px;
     color: aliceblue;
     border-radius: 5px;
 }
 
 #btnCal:hover {
-    background: rgb(97, 81, 117);
+    background: rgb(93, 92, 95);
     color: aliceblue;
     cursor: pointer;
 }

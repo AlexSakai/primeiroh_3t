@@ -47,4 +47,21 @@ function total(){
     //document.write("O Resultado é " + moeda(resultado));
 }
 
+function calculaRaiz(){
+    let a = document.getElementById ("aEquacao").value;
+    let b = document.getElementById ("bEquacao").value;
+    let c = document.getElementById ("cEquacao").value;
 
+    let delta = (b*b) - 4*a*c;
+    let raizdelta = sqrt(4*a*c)
+    if (delta < 0){
+        alert("O delta é negativo!");
+        return
+
+    }
+    else if (delta == 0){
+
+    }
+    
+
+}
